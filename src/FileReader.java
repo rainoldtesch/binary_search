@@ -4,7 +4,7 @@ import java.nio.file.Paths;
 
 public class FileReader {
     public static int[] read() {
-        String nomeArquivo = "numbers.txt"; // Substitua pelo caminho do seu arquivo
+        String nomeArquivo = "src/numbers.txt"; // dado o caminho do arquivo: numbers.txt
 
         try {
             // Leitura do arquivo usando Java NIO
